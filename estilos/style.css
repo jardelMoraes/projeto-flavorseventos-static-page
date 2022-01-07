@@ -106,8 +106,8 @@ header{
 }
 @media screen and (max-width:500px) {
     .destaque {
-        padding: 220px  0;
-        font-size: 50px;        
+        padding: 200px  0;
+        font-size: 60px;        
     }
 }
 
@@ -121,14 +121,26 @@ header{
     font-weight: bold;
     font-family: Verdana;
     background-color: rgba(255, 255, 255, 0.432);
-    color: black;
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 0 5px 40px black;
 }
+.botaoinicial a{
+    text-decoration: none;
+    color: black;
+}
+
+#produtos1{
+   color:rgba(255, 255, 255, 0);
+}
 
 .botaoinicial:hover{
     border: 6px solid black;
+    background-color: rgba(255, 255, 255, 0.842);
+    border: 3px solid brown;
+    border-radius: 10px;
+    box-shadow: 0 5px 40px brown;
+
 }
 
 @media screen and (max-width:500px) {
