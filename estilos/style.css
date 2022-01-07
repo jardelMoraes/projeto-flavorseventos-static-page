@@ -106,6 +106,7 @@ header{
 }
 @media screen and (max-width:500px) {
     .destaque {
+        padding: 220px  0;
         font-size: 50px;        
     }
 }
@@ -128,6 +129,13 @@ header{
 
 .botaoinicial:hover{
     border: 6px solid black;
+}
+
+@media screen and (max-width:500px) {
+    .botaoinicial {
+        width: 250px;
+        font-size: 25px;        
+    }
 }
 
 .aumentoDeFundo{
