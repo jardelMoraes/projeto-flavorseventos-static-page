@@ -11,13 +11,13 @@
 <body>
     
     <header>
-        <h1 class="marca">flavors <br> eventos</h1>
+       <a href="index.html"><h1 class="marca">flavors <br> eventos</h1></a> 
 
         <nav class="navInicial">
             <ul>
-                <li> <a href="#produtos1">Produtos</a></li>
-                <li> <a href="">depoimentos</a> </li>
-                <li><a href="">contato</a></li>
+                <li> <a href="#produtosLink">Produtos</a></li>
+                <li> <a href="#depoimentos1">depoimentos</a> </li>
+                <li><a href="#contatoLink">contato</a></li>
             </ul>
         </nav>
     </header>
@@ -27,14 +27,14 @@
             <p>o melhor buffet do brasil</p> 
         </section>
         <section class="botaoinicial">
-            <p> <a href="#produtos1">Ver produtos</a> </p> 
+            <p> <a href="#produtosLink">Ver produtos</a> </p> 
         </section>
         <p class="aumentoDeFundo"></p>
     </div>
 
 
     <main>
-        <div id="produtos1">_</div>
+        <div id="produtosLink">_</div>
         <article  class="produtos">
             <ul >
                 <li>
@@ -54,8 +54,10 @@
                     <p class="descricao-produtos">croissant life</p>
                 </li>
             </ul>
-        </article>
-        <article class="depoimentos" >
+       </article>
+
+        <article  class="depoimentos" >
+            <div id="depoimentos1">_</div>
             <h2 class="titulo-depoimentos">Depoimentos</h2>
             <ul>
                 <li>
@@ -77,43 +79,40 @@
         </article>
     </main>
 
-    <footer>
-        <section class="container"> 
-            <div>
-                <img src="imagens/imagensFinal/inagemPaginaContato.png" alt="Imagem pagina de contato">
+    <footer >
+        <section class="containerContato"> 
+            <div >
+                <img class="img1" src="imagens/imagensFinal/inagemPaginaContato.png" alt="Imagem pagina de contato">
             </div>
-        </section>
-            
        
-      
-        <div>
-            <h2 class="tituloFinal">Gostou da página que criei? Sugiro entrar em contato!</h2>
-            <h3 class="subtituloFinal">Links Úteis</h3>
-            <nav>
-                <ul class="contatos">
-                    <li>
-                        <a href="https://api.whatsapp.com/send?phone=5541995951403&text=Ol%C3%A1%2C%20gostei%20do%20seu%20trabalho!">
-                            <img src="imagens/imagensFinal/whatsapp.png" alt="Imagem whatsapp">
-                            <h3>WhatsApp</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/jardelMoraes">
-                            <img src="imagens/imagensFinal/github.png" alt="Imagem GitHub">
-                            <h3>GitHub</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:jardeljesus6@gmail.com?subject=Olá,%20tudo%20bem?">
-                            <img src="imagens/imagensFinal/gmail.png" alt="Imagem Gmail">
-                            <h3>E-mail</h3>
-                        </a>
-                    </li>
-                </ul> 
-            </nav>   
-        </div>
+            <div>
+                <h2 id="contatoLink" class="tituloFinal">Gostou da página que criei? Sugiro entrar em contato!</h2>
+                <h3 class="subtituloFinal">Links Úteis</h3>
+                <nav>
+                    <ul class="contatos">
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=5541995951403&text=Ol%C3%A1%2C%20gostei%20do%20seu%20trabalho!">
+                                <img class="imgfinal" src="imagens/imagensFinal/whatsapp.png" alt="Imagem whatsapp">
+                                <h3>WhatsApp</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jardelMoraes">
+                                <img class="imgfinal" src="imagens/imagensFinal/github.png" alt="Imagem GitHub">
+                                <h3>GitHub</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:jardeljesus6@gmail.com?subject=Olá,%20tudo%20bem?">
+                                <img class="imgfinal" src="imagens/imagensFinal/gmail.png" alt="Imagem Gmail">
+                                <h3>E-mail</h3>
+                            </a>
+                        </li>
+                    </ul> 
+                </nav>   
+            </div>
+        </section> 
     </footer>
-   
 
 </body>
 </html>

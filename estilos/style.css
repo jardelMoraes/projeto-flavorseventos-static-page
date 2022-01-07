@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
     height: 100vh;
@@ -51,6 +54,10 @@ header{
     padding: 10px;
 }
 
+header a{
+    text-decoration:none;
+}
+
 .marca:hover{
     background-color: rgb(112, 112, 112);
     border-radius: 5px;    
@@ -79,10 +86,11 @@ header{
 }
 
 .destaque {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px 0;
+    padding: 200px 0px;
     font-size: 150px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -130,10 +138,6 @@ header{
     color: black;
 }
 
-#produtos1{
-   color:rgba(255, 255, 255, 0);
-}
-
 .botaoinicial:hover{
     border: 6px solid black;
     background-color: rgba(255, 255, 255, 0.842);
@@ -149,14 +153,18 @@ header{
         font-size: 25px;        
     }
 }
-
 .aumentoDeFundo{
-    padding: 220px;
+    padding: 220px 0px;
 }
 /*produtos*/
 
+#produtosLink{
+    color:rgba(255, 255, 255, 0);
+ }
+
 .produtos ul{  
-    margin: 300px auto;
+    width: 100%;
+    margin: 200px auto;
     max-width: 1500px;
     display: flex;
     justify-content: center;
@@ -164,16 +172,17 @@ header{
 }
 .produtos li img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 .produtos li{
     padding: 80px 20px;
     flex-grow: 1 1 300px;
+    margin-left: 0;
 }
 .produtos li h2{
     text-align: center;
     padding-bottom: 80px;
-    width: 310px;
+    width: 250px;
     font-size: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -181,20 +190,231 @@ header{
 }  
 
 .produtos li .descricao-unica {
-    width: 310px;
+    width: 250px;
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+@media screen and (max-width:500px) {
+    .produtos li .descricao-unica {
+       text-align: center;        
+    }
 }
 
 .produtos li .descricao-produtos{
     text-align: center;
-    padding: 0 0 200px 0;
     text-transform: uppercase;
     font-weight: bold;
-    width: 310px;
+    width: 250px;
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
 }
+/*Depoimentos*/
+
+ #depoimentos1{
+    color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0;
+ }
 
 
+.depoimentos {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 40px rgb(0, 0, 0); 
+}
+.titulo-depoimentos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 40px;
+    padding-top: 150px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    color: rgb(255, 255, 255);
+}
 
+.depoimentos ul{
+    display: flex;/*Faz os Elementos filhos se tornarem flex e ficarem um do lado do outro*/
+    padding: 170px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;/*Usando esse Comando pude fazer com que o espaço "Branco indesejado" Sumusse no caso de um tamanho horizontal em 380px*/
+}
+.infeite{
+    color: white;
+    font-size: 60px;
+}
+
+.depoimentos li {
+    display: inline-block;
+    width: 20%; /* largura de 30%*/
+    margin: 0% 1%; /* Coloca uma margem (vertical horizontal)*/
+    padding: 40px 20px;
+    min-width: 250px; /*Com esse comando pude fazer com que a largura do texto não diminuisse continuamente*/
+}
+
+.depoimentos li:hover {/*Faz algum comportamento quando a mouse esta em cima do item*/
+    box-shadow: 0 0px 20px rgba(255, 255, 255, 0.493);
+    border-radius: 20px;
+    
+}
+.depoimentos h3{
+    margin-top: 20px;
+    font-weight: bold; /*Largura da fonte em negrito */
+    font-size: 30px; /*tamanho da fonte */
+    color: white;
+}
+@media screen and (max-width:930px) {
+    .depoimentos h3{
+            text-align: center;
+            font-size: 40px;
+        }   
+    }
+
+.descricao-depoimentos {
+    margin-top: 150px;
+    font-family: Arial;
+    color: white;
+    padding: 0 90px 0 0; /*Espacamento interno (vertical e horizontal) */
+}
+@media screen and (max-width:930px) {
+    .descricao-depoimentos{
+            text-align: center;
+            font-size: 25px;
+            padding: 0;
+        }   
+    }
+
+/*Pagina de Contao*/
+
+
+.containerContato{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;      
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+@media screen and (max-width:1270px) {
+    .img1{
+        width:650px;
+        height: 700px;      
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .img1{
+        width:550px;
+        height: 600px;      
+    }
+}
+@media screen and (max-width:1000px) {
+    .img1{
+        width:460px;
+        height: 600px;      
+    }
+}@media screen and (max-width:768px) {
+    .img1{
+        width:768px;
+        height: 768px;      
+    }
+}
+
+
+/*@media screen and (max-width:1058px) {
+    .img1{
+        width:500px;
+        height: 500px;      
+    }
+}
+@media screen and (max-width:850px) {
+    .img1{
+        width:100%;
+        height: 400px;      
+    }
+}
+@media screen and (max-width:768px) {
+    .img1{
+        width:380px;
+        height: 380px;      
+    }
+}
+@media screen and (max-width:435px) {
+    .img1{
+        width:100%;
+        height: 400px;      
+    }
+}*/
+.tituloFinal{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 400px;
+    text-align: center;
+    padding-right: 200px;
+    padding-bottom: 50px;
+   
+}
+
+@media screen and (max-width:1450px) {
+     .tituloFinal{
+        width: 310px;
+        margin: 0 auto;
+    }
+}
+.subtituloFinal{
+    width: 400px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.imgfinal{
+    width: 50px;
+    height: 50px;
+    
+}
+.contatos{
+    padding-top: 100px;
+    padding-right: 200px;
+}
+.contatos a{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    padding: 30px 0;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width:1450px) {
+    .contatos, .tituloFinal{
+
+        padding-right: 180px;
+    }
+}
+@media screen and (max-width:1282px) {
+    .contatos, .tituloFinal{
+
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width:1207px) {
+    .contatos, .tituloFinal{
+
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width:768px) {
+    .contatos, .tituloFinal, .containerContato {
+
+        padding-right: 0px;
+        justify-content: center;
+    }
+}
