@@ -25,7 +25,7 @@ This project was made using the following technologies:
   <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a></li>
 </ul>
 
-# :memo: Explicacao
+# :memo: Explicação
 
 Nessa primeira página pude apender como iniciar no desenvolvimento Front-end. Através de buscas em cursos online e explicações em fóruns pude começar aprender os princípios de construção de uma página Web. Nesse trabalho pude desenvolver um layout responsivo com aplicação de <strong>Flexbox</strong> e <strong>Media Query</strong>.
 
