@@ -14,7 +14,7 @@ A mesma pode ser acessada pelo link:
 # :pushpin: Sumário
 
 - [Tecnologias](#computer-tecnologias)
-- [explicação](#memo-explicacao)
+- [Explicação](#memo-explicacao)
 
 # :computer: Tecnologias
 
