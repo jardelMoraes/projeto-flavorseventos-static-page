@@ -18,7 +18,7 @@ A mesma pode ser acessada pelo link:
 
 # :computer: Tecnologias
 
-This project was made using the following technologies:
+Esse projeto foi realizado utilizando-se as seguintes tecnologias:
 
 <ul>
   <li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
