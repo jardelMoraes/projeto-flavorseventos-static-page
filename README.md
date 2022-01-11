@@ -1,12 +1,12 @@
 <div align="center">
   <img src="https://github.com/jardelMoraes/projeto1-flavorseventos/blob/main/pagina-site.png" alt"Proffy" title="Proffy" />
 
- :rocket: *Minha primeira página Web.*
+ :rocket: *Deploy de página estática pelo GitHub.*
   </div>
 
 # Flavors Eventos
 
- Essa foi minha primeira página Web
+Deploy de página estática pelo GitHub
  
 A mesma pode ser acessada pelo link:
  https://jardelmoraes.github.io/projeto1-flavorseventos/ 
@@ -27,5 +27,5 @@ Esse projeto foi realizado utilizando-se as seguintes tecnologias:
 
 # :memo: Explicação
 
-Nessa primeira página pude apender como iniciar no desenvolvimento Front-end. Através de buscas em cursos online e explicações em fóruns pude começar a aprender os princípios de construção de uma página Web. Nesse trabalho pude desenvolver um layout responsivo com aplicação de <strong>Flexbox</strong> e <strong>Media Query</strong>.
+
 
