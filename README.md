@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/jardelMoraes/projeto1-flavorseventos/blob/main/pagina-site.png" alt"Proffy" title="Proffy" />
 
- :rocket: *Minha primiera página Web.*
+ :rocket: *Minha primeira página Web.*
   </div>
 
 # Flavors Eventos
@@ -27,5 +27,5 @@ Esse projeto foi realizado utilizando-se as seguintes tecnologias:
 
 # :memo: Explicação
 
-Nessa primeira página pude apender como iniciar no desenvolvimento Front-end. Através de buscas em cursos online e explicações em fóruns pude começar aprender os princípios de construção de uma página Web. Nesse trabalho pude desenvolver um layout responsivo com aplicação de <strong>Flexbox</strong> e <strong>Media Query</strong>.
+Nessa primeira página pude apender como iniciar no desenvolvimento Front-end. Através de buscas em cursos online e explicações em fóruns pude começar a aprender os princípios de construção de uma página Web. Nesse trabalho pude desenvolver um layout responsivo com aplicação de <strong>Flexbox</strong> e <strong>Media Query</strong>.
 
