@@ -27,5 +27,6 @@ Esse projeto foi realizado utilizando-se as seguintes tecnologias:
 
 # :memo: Explicação
 
+Nesse projeto criei uma página estática com layout responsivo aplicando <strong>FlexBox</strong> e <strong>Media Query</strong> e realizei o deploy da mesma por meio do GitHub pages.
 
 
