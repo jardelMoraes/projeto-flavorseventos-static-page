@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://jardelmoraes.github.io/projeto-flavorseventos-static-page/" alt"Proffy" title="Proffy" />
+  <img src="https://github.com/jardelMoraes/projeto1-flavorseventos/blob/main/pagina-site.png" alt"Proffy" title="Proffy" alt"Proffy" title="Proffy" />
 
  :rocket: *Deploy de página estática pelo GitHub.*
   </div>
@@ -9,7 +9,7 @@
 Deploy de página estática pelo GitHub
  
 A mesma pode ser acessada pelo link:
- https://jardelmoraes.github.io/projeto1-flavorseventos/ 
+ https://jardelmoraes.github.io/projeto-flavorseventos-static-page/ 
  
 # :pushpin: Sumário
 
