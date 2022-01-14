@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/jardelMoraes/projeto1-flavorseventos/blob/main/pagina-site.png" alt"Proffy" title="Proffy" />
+  <img src="https://jardelmoraes.github.io/projeto-flavorseventos-static-page/" alt"Proffy" title="Proffy" />
 
  :rocket: *Deploy de página estática pelo GitHub.*
   </div>
